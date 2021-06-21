@@ -29,7 +29,7 @@
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              
             </form>
           </div>
         </div>
@@ -37,13 +37,30 @@
 
       <!-- Jubotron -->
       <div class="jumbotron">
-        <h1 class="display-4">Stopwatch</h1>
-        <div id="stopwatch"></div>
+        <div class="wrap">
+          <h1 class="display-4">Stopwatch</h1>
+          <div id="stopwatch"></div>
+
+        </div>
         <div id="warning"></div>
         <hr my-4>
-        <a class="btn btn-primary btn-lg" href="#" role="button" id="start">Start</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button" id="stop">Stop</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button" id="reset">Reset</a>
+        <div class="main-outer">
+        <div class="outer outer1">
+          <button class="btn btn-primary btn-lg" href="#" role="button" id="start">Start</button>
+          <span></span>
+          <span id="span"></span>
+        </div>
+        <div class="outer outer2">
+          <button class="btn btn-primary btn-lg" href="#" role="button" id="stop">Stop</button>
+          <span></span>
+          <span id="span"></span>
+        </div>
+        <div class="outer outer3">
+          <button class="btn btn-primary btn-lg" href="#" role="button" id="reset">Reset</button>
+          <span></span>
+          <span id="span"></span>
+        </div>
+      </div>
       </div>
 
 
